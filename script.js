@@ -32,7 +32,7 @@ function returnMovies(url) {
 
         const center = document.createElement('center');
 
-        title.innerHTML = `${element.title}<br><a href = "movie.html?id=${element.id}&title=${element.title}">Bebi Chela</a>`;
+        title.innerHTML = `${element.title}<br><a href = "movie.html?id=${element.id}&title=${element.title}">Review</a>`;
         image.src = IMG_PATH + element.poster_path;
 
         center.appendChild(image);
